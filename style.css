@@ -1,0 +1,35 @@
+form{
+    width: 30%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+}
+.head-login{
+   font-weight: bold;
+   text-align: center;
+   color: rgb(9, 9, 9);
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/1285308242/photo/to-do-list-text-on-notepad.webp?b=1&s=170667a&w=0&k=20&c=xAUt6BWO1oyibsevhrqjfNH_etMfz3oOQESJCkn0H3Y=);
+    background-size: 100%;
+}
+#submit-btn{
+    border: 2px solid;
+    text-decoration : none;
+    padding : 4px;
+    border-color : #000000;
+    color: #000000;
+    
+   
+}
+ul{
+    list-style-type: none;
+}
+.main-heading{
+    margin-left: 100px;
+}
+.todo-block{
+    margin-left:70px ;
+}
+.nav-item{
+    font-size: 23px;
+}
