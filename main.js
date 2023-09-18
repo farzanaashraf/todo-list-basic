@@ -23,7 +23,7 @@ let counter = (function () {
 })();
 
 
-fetch("http://jsonplaceholder.typicode.com/todos")
+fetch("https://jsonplaceholder.typicode.com/todos")
     .then(resp => resp.json())
     .then(data => {
         const completedData = data.filter(item => item.completed);
