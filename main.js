@@ -26,12 +26,15 @@ let counter = (function () {
 fetch("https://jsonplaceholder.typicode.com/todos")
     .then(resp => resp.json())
     .then(data => {
-        const completedData = data.filter(item => item.completed);
+        // const completedData = data.filter(item => item.completed);
         var list = document.getElementById("todo-list");
 
-        completedData.forEach(item => {
+        data.forEach(item => {
             const input = document.createElement("input");
             input.type = "checkbox";
+            if(item.completed){
+                input.checked = true;
+            }
             input.onchange = function () {
                 if (input.checked) {
                     counter.increment().then(count => {

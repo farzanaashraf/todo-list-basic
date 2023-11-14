@@ -9,7 +9,7 @@ form{
    color: rgb(9, 9, 9);
 }
 body{
-    background-image: url(https://media.istockphoto.com/id/1285308242/photo/to-do-list-text-on-notepad.webp?b=1&s=170667a&w=0&k=20&c=xAUt6BWO1oyibsevhrqjfNH_etMfz3oOQESJCkn0H3Y=);
+    background-image: url(https://img.freepik.com/premium-photo/list-icon-notebook-with-completed-todo-list-3d-render_471402-428.jpg);
     background-size: 100%;
 }
 #submit-btn{
@@ -25,7 +25,9 @@ ul{
     list-style-type: none;
 }
 .main-heading{
-    margin-left: 100px;
+    font-weight: bolder;
+    color: rgb(16, 16, 18);
+
 }
 .todo-block{
     margin-left:70px ;
